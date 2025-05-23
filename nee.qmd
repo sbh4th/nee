@@ -1,0 +1,281 @@
+---
+title: "Do We Need 'Natural Experiments'?"
+subtitle: "Framework for natural experimental evaluations: Launch event"
+author: "Sam Harper"
+date: 2025-05-23
+date-format: iso
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    css: fonts.css
+    width: 1600
+    height: 900
+    slide-number: true
+    html-math-method: mathjax
+    standalone: false
+    embed-resources: false
+    auto-stretch: false
+include-in-header: 
+  text: |
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+title-slide-attributes:
+    data-background-image: "images/mcgill-epi-logo.png"
+    data-background-size: 30%
+    data-background-position: 50% 90%
+    data-notes: Thanks for the opportunity to provide some perspective on this new framework for natural experiments. 
+execute: 
+  cache: false
+csl: elsevier-harvard-without-titles.csl
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+library(here)
+```
+
+## Strengths of the Framework
+
+<br>
+
+- ### Inclusive development with stakeholders
+
+<br>
+
+- ### Emphasis on theory, planning, context, transparency
+
+<br>
+
+- ### Importance of understanding treatment assignment mechanism
+
+<br>
+
+- ### Integration of mixed methods
+
+::: notes
+I think it is important to say that there are many things I think are innovative and valuable in the new guidance. In particular, I have a lot of respect for the focused and intentional process the authors used to develop the framework with specific input from a wide range of stakeholders. The convention of a wide-ranging group of stakeholders ensures that the perspectives of both consumers and producers of natural experiments are considered. 
+:::
+
+## Defining "Natural Experiments"
+
+::::: columns
+::: {.column width="20%"}
+\
+
+### 2012:
+
+\
+\
+\
+\
+
+### 2025:
+:::
+
+::: {.column width="80%"}
+\
+
+> The common thread in most definitions is that exposure to the event or intervention of interest [has not been manipulated by the researcher]{.blue}.
+
+\
+
+> We use the term to refer to events or processes [outside the control of a researcher]{.blue} that divide a population into exposed or unexposed groups, or groups with differing degrees of exposure.
+:::
+:::::
+
+::: aside
+See @craig2012; @craig2025
+:::
+
+::: notes
+That being said, I also have some concerns, particularly about the definition of what constitutes a natural experiment. Relative to the prior guidance, the new framework effectively adopts the same definition.  Rationale for broad 1) Design does not equal quality. True, but also for RCTs; 2) "As-if randomization" hard to define. Also true but this is the core intuition for NEs.
+:::
+
+## Natural Experiments are Observational Studies
+
+<br>
+
+Paul Rosenbaum in *Observational Studies*:
+
+> An observational study is an empiric investigation of the effects caused by a treatment, policy, or intervention in which [it is not possible to assign subjects at random to treatment or control]{.blue}, as would be done in a controlled experiment.
+
+<br>
+
+### Same, right? Is this a problem?
+
+::: aside
+See @rosenbaum2002
+:::
+
+::: notes
+But I worry that this may present challenges. First, this is effectively makes no distinction with any other observational study. Here is Paul Rosenbaum...
+:::
+
+## Consumers of evidence likely make a distinction.
+
+For example, GRADE guidance:
+
+> In public health, where randomized studies are less common and often infeasible in comparison with other areas of health, some types of NRS may provide greater certainty than others when investigating the health effects of policy or social interventions. For example, [natural experiment studies may address selection bias and confounding through designs such as ITS or regression discontinuity]{.red}, which may support stronger causal inference than other observational designs such as cohort and case-control studies \[45\].
+
+::: aside
+See @hiltonboon2021 and note that reference \[45\] is to @craig2017.
+:::
+
+::: notes
+Consumers, journal editors, and funders may be influenced by the use of the term 'natural experiments' but if that term is not well defined, that can create problems.
+:::
+
+## Potential for 'halo effects'?
+
+![](images/cullati-title.png){fig-align="center" width="1250"}
+
+## What makes this "quasi-experimental"?
+
+> ...some Swiss regions do have organised breast cancer programmes, while others still rely on opportunistic screening.
+
+> This ecological [quasi-experimental]{.red} context allows analysing the evolution of socioeconomic inequalities in mammography screening over time in the different regions.
+
+-   No discussion of treatment assignment mechanism
+
+-   No discussion of potential biases of the treatment effect
+
+::: aside
+See @cullati2018
+:::
+
+::: notes
+Fits the new guidance definition. No qualitative understanding of treatment assignment, or discussion of assumptions needed for causal inference. Only sensitivity analysis was different definintions of SEP.
+:::
+
+## Cluster-level treatment, but individual 'controls'
+
+![](images/cullati-control.png){fig-align="center" width="900"}
+
+::: aside
+@cullati2018
+:::
+
+::: notes
+Confusion about the treatment itself. Treatment at canton level, but covariates that aren't really confounders. Really worried about unobservables here. 
+:::
+
+## Weak design, but causal conclusions?
+
+::: fragment
+> our results showed that [organised screening programmes modified income inequalities]{.blue} by reducing differences towards the null.
+:::
+
+::: fragment
+> Despite the lack of statistical significance of APRs in both groups, it suggested that [organised programmes reduced the APR of income]{.blue} towards the null.
+:::
+
+::: fragment
+> [these programmes reversed the gap in mammography screening uptake]{.blue} between employed and not employed women (the latest exceeded the prevalence of employed women by 2012) and attenuated educational and income-related inequalities.
+:::
+
+::: aside
+@cullati2018
+:::
+
+::: notes
+Concern about the belief that since this is a 'natural experiment' strong conclusions about causation are warranted.
+:::
+
+## 
+
+![](images/pletscher-title.png){width="1500"}
+
+![](images/pletscher-address.png){width="700"}
+
+::: notes
+One year prior. Not explicitly framed as a 'natural experiment'. 
+:::
+
+## What makes this "quasi-experimental"?
+
+-   Exact same data, and clear objective:
+
+> to estimate the effect of organized mammography screening programs on screening initiation in screening cantons.
+
+-   Concerns about identification:
+
+    -   Include region and time fixed effects (i.e., DiD)
+    -   Functional form of model
+
+-   Evaluating alternative explanations by design:
+
+    -   Placebo tests on pre-intervention trends
+    -   Triple differences model
+
+::: aside
+See @pletscher2016
+:::
+
+::: notes
+Key idea here is concern about unobservables and how the design helps to strengthen causal inference. Also considerable focus on testing assumptions needed for causal inference. Precise timing 'as-good-as random'.
+:::
+
+## Ambiguous evidence, sensible conclusions
+
+> we do not find clear income- or education-related gradients in screening initiation. Although we find...stronger effects of the organized programs among women with lower incomes, these gradients are rather moderate.
+
+::::: columns
+::: {.column width="50%"}
+![](images/pletscher-education.png){fig-align="center" width="500"}
+:::
+
+::: {.column width="50%"}
+![](images/pletscher-income.png){fig-align="center" width="500"}
+:::
+:::::
+
+::: aside
+@pletscher2016
+:::
+
+::: notes
+Some evidence not inconsistent with Cullati, but based on more credible assumptions. Follows the best practices of the new guidance quite well (no modern methods for staggered DiD).
+:::
+
+## Current thoughts (with an open mind)
+
+<br>
+
+A definition that fails to distinguish between stronger and weaker observational designs creates confusion.
+
+<br>
+
+. . .
+
+### Two suggestions:
+
+::::: columns
+::: {.column width="20%"}
+:::
+
+::: {.column width="75%"}
+#### 1. Use a more stringent definition
+
+For example, designs that 'select on unobservables'
+
+<br>
+
+#### 2. Drop the label entirely.
+
+Focus on question, design, assumptions, and inference.
+:::
+:::::
+
+::: notes
+Generally very supportive of new framework and guidance, especially on the practical / planning side. But I think failing to give a strong definition of a natural experiment has potential to create confusion. Selection on unobservables or even create 'as-if' randomization. 
+:::
+
+##  {.center background-image="images/mcgill-university.jpg"}
+
+::: center
+### [Questions?]{.white}
+
+[sam.harper\@mcgill.ca]{.white}\
+[samharper.org]{.white}
+:::
+
+## References
