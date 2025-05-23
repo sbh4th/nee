@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "nee.html#definitions",
+    "href": "nee.html#definitions",
+    "title": "Natural Experiments",
+    "section": "Definitions",
+    "text": "Definitions\n2012:\n\nThe common thread in most definitions is that exposure to the event or intervention of interest has not been manipulated by the researcher.\n\n…\n2025:\n\nWe use the term to refer to events or processes outside the control of a researcher that divide a population into exposed or unexposed groups, or groups with differing degrees of exposure.\n\n\n\nThanks for the opportunity to provide some perspective on this new framework for natural experiments. I think it is important to say that there are many things I think are innovative and valuable in the new guidance.\n\n\nSee Craig et al. (2012); Craig et al. (2025)"
+  },
+  {
+    "objectID": "nee.html#references",
+    "href": "nee.html#references",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "References",
+    "text": "References\n\n\n\n\nCraig, P., Campbell, M., Deidda, M., Dundas, R., Green, J., Katikireddi, S.V., Lewsey, J., Ogilvie, D., Vocht, F. de, White, M., 2025. BMJ e080505.\n\n\nCraig, P., Cooper, C., Gunnell, D., Haw, S., Lawson, K., Macintyre, S., Ogilvie, D., Petticrew, M., Reeves, B., Sutton, M., Thompson, S., 2012. Journal of Epidemiology and Community Health 66, 1182–1186.\n\n\nCraig, P., Katikireddi, S.V., Leyland, A., Popham, F., 2017. Annual Review of Public Health 38, 39–56.\n\n\nCullati, S., Arx, M. von, Courvoisier, D.S., Sandoval, J.L., Manor, O., Burton-Jeangros, C., Bouchardy, C., Guessous, I., 2018. Preventive Medicine 116, 19–26.\n\n\nHilton Boon, M., Thomson, H., Shaw, B., Akl, E.A., Lhachimi, S.K., López-Alcalde, J., Klugar, M., Choi, L., Saz-Parkinson, Z., Mustafa, R.A., Langendam, M.W., Crane, O., Morgan, R.L., Rehfuess, E., Johnston, B.C., Chong, L.Y., Guyatt, G.H., Schünemann, H.J., Katikireddi, S.V., 2021. Journal of Clinical Epidemiology 135, 42–53.\n\n\nPletscher, M., 2016. The European Journal of Health Economics 18, 649–665.\n\n\nRosenbaum, P.R., 2002. Observational studies. Springer New York."
+  },
+  {
+    "objectID": "nee.html#what-makes-this-quasi-experimental",
+    "href": "nee.html#what-makes-this-quasi-experimental",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "What makes this “quasi-experimental”?",
+    "text": "What makes this “quasi-experimental”?\n\n…some Swiss regions do have organised breast cancer programmes, while others still rely on opportunistic screening.\n\n\nThis ecological quasi-experimental context allows analysing the evolution of socioeconomic inequalities in mammography screening over time in the different regions.\n\n\nNo discussion of treatment assignment mechanism\nNo discussion of potential biases of the treatment effect\n\n\n\nFits the new guidance definition. No qualitative understanding of treatment assignment, or discussion of assumptions needed for causal inference. Only sensitivity analysis was different definintions of SEP.\n\n\nSee Cullati et al. (2018)"
+  },
+  {
+    "objectID": "nee.html#definitions-1",
+    "href": "nee.html#definitions-1",
+    "title": "Natural Experiments",
+    "section": "Definitions",
+    "text": "Definitions\n2012:\n\nThe common thread in most definitions is that exposure to the event or intervention of interest has not been manipulated by the researcher.\n\n…\n2025:\n\nWe use the term to refer to events or processes outside the control of a researcher that divide a population into exposed or unexposed groups, or groups with differing degrees of exposure.\n\n\n\nThanks for the opportunity to provide some perspective on this new framework for natural experiments. I think it is important to say that there are many things I think are innovative and valuable in the new guidance.\n\n\nSee Craig et al. (2012); Craig et al. (2025)"
+  },
+  {
+    "objectID": "nee.html#definitions-2",
+    "href": "nee.html#definitions-2",
+    "title": "Natural Experiments",
+    "section": "Definitions",
+    "text": "Definitions\n2012:\n\nThe common thread in most definitions is that exposure to the event or intervention of interest has not been manipulated by the researcher.\n\n…\n2025:\n\nWe use the term to refer to events or processes outside the control of a researcher that divide a population into exposed or unexposed groups, or groups with differing degrees of exposure.\n\n\n\nThanks for the opportunity to provide some perspective on this new framework for natural experiments. I think it is important to say that there are many things I think are innovative and valuable in the new guidance.\n\n\nSee Craig et al. (2012); Craig et al. (2025)"
+  },
+  {
+    "objectID": "nee.html#defining-natural-experiments",
+    "href": "nee.html#defining-natural-experiments",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Defining “Natural Experiments”",
+    "text": "Defining “Natural Experiments”\n\n\n\n\n2012:\n\n\n\n\n\n2025:\n\n\n\n\nThe common thread in most definitions is that exposure to the event or intervention of interest has not been manipulated by the researcher.\n\n\n\n\nWe use the term to refer to events or processes outside the control of a researcher that divide a population into exposed or unexposed groups, or groups with differing degrees of exposure.\n\n\n\n\nThat being said, I also have some concerns, particularly about the definition of what constitutes a natural experiment. Relative to the prior guidance, the new framework effectively adopts the same definition. Rationale for broad 1) Design does not equal quality. True, but also for RCTs; 2) “As-if randomization” hard to define. Also true but this is the core intuition for NEs.\n\n\nSee Craig et al. (2012); Craig et al. (2025)"
+  },
+  {
+    "objectID": "nee.html#what-makes-this-quasi-experimental-1",
+    "href": "nee.html#what-makes-this-quasi-experimental-1",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "What makes this “quasi-experimental”?",
+    "text": "What makes this “quasi-experimental”?\n\nExact same data, and clear objective:\n\n\nto estimate the effect of organized mammography screening programs on screening initiation in screening cantons.\n\n\nConcerns about identification:\n\nInclude region and time fixed effects (i.e., DiD)\nFunctional form of model\n\nEvaluating alternative explanations by design:\n\nPlacebo tests on pre-intervention trends\nTriple differences model\n\n\n\n\nKey idea here is concern about unobservables and how the design helps to strengthen causal inference. Also considerable focus on testing assumptions needed for causal inference. Precise timing ‘as-good-as random’.\n\n\nSee Pletscher (2016)"
+  },
+  {
+    "objectID": "nee.html#section-5",
+    "href": "nee.html#section-5",
+    "title": "Natural Experiments",
+    "section": "1",
+    "text": "1\n@cullati2018"
+  },
+  {
+    "objectID": "nee.html#what-makes-this-quasi-experimental1",
+    "href": "nee.html#what-makes-this-quasi-experimental1",
+    "title": "Natural Experiments",
+    "section": "What makes this “quasi-experimental”?1",
+    "text": "What makes this “quasi-experimental”?1\n\n…some Swiss regions do have organised breast cancer programmes, while others still rely on opportunistic screening.\n\n\nThis ecological quasi-experimental context allows analysing the evolution of socioeconomic inequalities in mammography screening over time in the different regions.\n\n\nNo discussion of treatment assignment mechanism\nNo discussion of potential biases of the treatment effect\n\n\n\nSee Cullati et al. (2018)\n(Cullati et al., 2018)"
+  },
+  {
+    "objectID": "nee.html#normal-slide",
+    "href": "nee.html#normal-slide",
+    "title": "Natural Experiments",
+    "section": "Normal slide",
+    "text": "Normal slide\nSentence with a quote1\nSee"
+  },
+  {
+    "objectID": "nee.html#section-7",
+    "href": "nee.html#section-7",
+    "title": "Natural Experiments",
+    "section": "",
+    "text": "Questions?\nsam.harper@mcgill.ca\nsamharper.org"
+  },
+  {
+    "objectID": "nee.html#section-8",
+    "href": "nee.html#section-8",
+    "title": "Natural Experiments",
+    "section": "",
+    "text": "Questions?\nsam.harper@mcgill.ca\nsamharper.org"
+  },
+  {
+    "objectID": "nee.html#defining-natural-experiments-1",
+    "href": "nee.html#defining-natural-experiments-1",
+    "title": "Natural Experiments",
+    "section": "Defining “Natural Experiments”",
+    "text": "Defining “Natural Experiments”\n\n\n\n\n2012:\n\n\n\n\n\n2025:\n\n\n\n\nThe common thread in most definitions is that exposure to the event or intervention of interest has not been manipulated by the researcher.\n\n\n\n\nWe use the term to refer to events or processes outside the control of a researcher that divide a population into exposed or unexposed groups, or groups with differing degrees of exposure.\n\n\n\n\nSee Craig et al. (2012); Craig et al. (2025)"
+  },
+  {
+    "objectID": "nee.html#strengths-of-the-framework",
+    "href": "nee.html#strengths-of-the-framework",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Strengths of the Framework",
+    "text": "Strengths of the Framework\n\n\nInclusive development with stakeholders\n\n\n\nEmphasis on theory, planning, context, transparency\n\n\n\nImportance of understanding treatment assignment mechanism\n\n\n\nIntegration of mixed methods\n\n\nI think it is important to say that there are many things I think are innovative and valuable in the new guidance. In particular, I have a lot of respect for the focused and intentional process the authors used to develop the framework with specific input from a wide range of stakeholders. The convention of a wide-ranging group of stakeholders ensures that the perspectives of both consumers and producers of natural experiments are considered."
+  },
+  {
+    "objectID": "nee.html#section-6",
+    "href": "nee.html#section-6",
+    "title": "Natural Experiments",
+    "section": "",
+    "text": "Questions?\nsam.harper@mcgill.ca\nsamharper.org"
+  },
+  {
+    "objectID": "nee.html#section-4",
+    "href": "nee.html#section-4",
+    "title": "Natural Experiments",
+    "section": "",
+    "text": "Questions?\nsam.harper@mcgill.ca\nsamharper.org"
+  },
+  {
+    "objectID": "nee.html#natural-experiment",
+    "href": "nee.html#natural-experiment",
+    "title": "Natural Experiments",
+    "section": "Natural Experiment?",
+    "text": "Natural Experiment?\n\nAn observational study is an empiric investigation of the effects caused by a treatment, policy, or intervention in which it is not possible to assign subjects at random to treatment or control, as would be done in a controlled experiment.\n\n\n\nSee Rosenbaum (2002)"
+  },
+  {
+    "objectID": "nee.html#natural-experiments-are-observational-studies",
+    "href": "nee.html#natural-experiments-are-observational-studies",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Natural Experiments are Observational Studies",
+    "text": "Natural Experiments are Observational Studies\n\nPaul Rosenbaum in Observational Studies:\n\nAn observational study is an empiric investigation of the effects caused by a treatment, policy, or intervention in which it is not possible to assign subjects at random to treatment or control, as would be done in a controlled experiment.\n\n\nSame, right? Is this a problem?\n\n\nBut I worry that this may present challenges. First, this is effectively makes no distinction with any other observational study. Here is Paul Rosenbaum…\n\n\nSee Rosenbaum (2002)"
+  },
+  {
+    "objectID": "nee.html#weak-design-but-causal-conclusions",
+    "href": "nee.html#weak-design-but-causal-conclusions",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Weak design, but causal conclusions?",
+    "text": "Weak design, but causal conclusions?\n\n\nour results showed that organised screening programmes modified income inequalities by reducing differences towards the null.\n\n\n\n\nDespite the lack of statistical significance of APRs in both groups, it suggested that organised programmes reduced the APR of income towards the null.\n\n\n\n\nthese programmes reversed the gap in mammography screening uptake between employed and not employed women (the latest exceeded the prevalence of employed women by 2012) and attenuated educational and income-related inequalities.\n\n\n\n\nConcern about the belief that since this is a ‘natural experiment’ strong conclusions about causation are warranted.\n\n\nCullati et al. (2018)"
+  },
+  {
+    "objectID": "nee.html#current-thoughts-with-an-open-mind",
+    "href": "nee.html#current-thoughts-with-an-open-mind",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Current thoughts (with an open mind)",
+    "text": "Current thoughts (with an open mind)\n\nA definition that fails to distinguish between stronger and weaker observational designs creates confusion.\n\n\nTwo suggestions:\n\n\n\n\n1. Use a more stringent definition\nFor example, designs that ‘select on unobservables’\n\n2. Drop the label entirely.\nFocus on question, design, assumptions, and inference.\n\n\nGenerally very supportive of new framework and guidance, especially on the practical / planning side. But I think failing to give a strong definition of a natural experiment has potential to create confusion. Selection on unobservables or even create ‘as-if’ randomization."
+  },
+  {
+    "objectID": "nee.html#current-thoughts-with-an-open-mind-1",
+    "href": "nee.html#current-thoughts-with-an-open-mind-1",
+    "title": "Natural Experiments",
+    "section": "Current thoughts (with an open mind)",
+    "text": "Current thoughts (with an open mind)\n\nTwo suggestions:\n1. Use a more stringent definition (e.g., designs that ‘select on unobservables’)\n2. Drop the label entirely. Focus on question, design, assumptions, and inference."
+  },
+  {
+    "objectID": "nee.html#potential-for-halo-effects",
+    "href": "nee.html#potential-for-halo-effects",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Potential for ‘halo effects’?",
+    "text": "Potential for ‘halo effects’?"
+  },
+  {
+    "objectID": "nee.html#cluster-level-treatment-but-controls",
+    "href": "nee.html#cluster-level-treatment-but-controls",
+    "title": "Natural Experiments",
+    "section": "Cluster-level treatment, but ‘controls’?",
+    "text": "Cluster-level treatment, but ‘controls’?\n\n\n\n\n\n\n\nCullati et al. (2018)"
+  },
+  {
+    "objectID": "nee.html#cluster-level-treatment-but-individual-controls",
+    "href": "nee.html#cluster-level-treatment-but-individual-controls",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Cluster-level treatment, but individual ‘controls’",
+    "text": "Cluster-level treatment, but individual ‘controls’\n\n\n\n\n\n\n\nConfusion about the treatment itself. Treatment at canton level, but covariates that aren’t really confounders. Really worried about unobservables here.\n\n\nCullati et al. (2018)"
+  },
+  {
+    "objectID": "nee.html#consumers-of-evidence-likely-make-a-distinction.",
+    "href": "nee.html#consumers-of-evidence-likely-make-a-distinction.",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Consumers of evidence likely make a distinction.",
+    "text": "Consumers of evidence likely make a distinction.\nFor example, GRADE guidance:\n\nIn public health, where randomized studies are less common and often infeasible in comparison with other areas of health, some types of NRS may provide greater certainty than others when investigating the health effects of policy or social interventions. For example, natural experiment studies may address selection bias and confounding through designs such as ITS or regression discontinuity, which may support stronger causal inference than other observational designs such as cohort and case-control studies [45].\n\n\n\nConsumers, journal editors, and funders may be influenced by the use of the term ‘natural experiments’ but if that term is not well defined, that can create problems.\n\n\nSee Hilton Boon et al. (2021) and note that reference [45] is to Craig et al. (2017)."
+  },
+  {
+    "objectID": "nee.html#section-3",
+    "href": "nee.html#section-3",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "",
+    "text": "Questions?\nsam.harper@mcgill.ca\nsamharper.org"
+  },
+  {
+    "objectID": "nee.html#limited-evidence-sensible-conclusions",
+    "href": "nee.html#limited-evidence-sensible-conclusions",
+    "title": "Natural Experiments",
+    "section": "Limited evidence, sensible conclusions",
+    "text": "Limited evidence, sensible conclusions"
+  },
+  {
+    "objectID": "nee.html#ambiguous-evidence-sensible-conclusions",
+    "href": "nee.html#ambiguous-evidence-sensible-conclusions",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "Ambiguous evidence, sensible conclusions",
+    "text": "Ambiguous evidence, sensible conclusions\n\nwe do not find clear income- or education-related gradients in screening initiation. Although we find…stronger effects of the organized programs among women with lower incomes, these gradients are rather moderate.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome evidence not inconsistent with Cullati, but based on more credible assumptions. Follows the best practices of the new guidance quite well (no modern methods for staggered DiD).\n\n\nPletscher (2016)"
+  },
+  {
+    "objectID": "nee.html#section-2",
+    "href": "nee.html#section-2",
+    "title": "Do We Need ‘Natural Experiments’?",
+    "section": "",
+    "text": "One year prior. Not explicitly framed as a ‘natural experiment’."
+  }
+]
